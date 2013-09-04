@@ -108,5 +108,7 @@ fi
 
 export http_proxy="http://http.proxy.fmr.com:8000"
 export https_proxy="http://http.proxy.fmr.com:8000"
-git config --global user.email doug.smith.mail@gmail.com
-git config --global user.name d-smith
+
+#Update your git config to set your email and username for commits
+#git config --global user.email doug.smith.mail@gmail.com
+#git config --global user.name d-smith
