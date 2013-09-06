@@ -112,3 +112,5 @@ export https_proxy="http://http.proxy.fmr.com:8000"
 #Update your git config to set your email and username for commits
 #git config --global user.email doug.smith.mail@gmail.com
 #git config --global user.name d-smith
+
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle/
