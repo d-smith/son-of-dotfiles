@@ -106,8 +106,8 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export http_proxy="http://http.proxy.fmr.com:8000"
-export https_proxy="http://http.proxy.fmr.com:8000"
+export http_proxy="http://proxyhost:port"
+export https_proxy="http://proxyhost:port"
 
 #Update your git config to set your email and username for commits
 #git config --global user.email doug.smith.mail@gmail.com
